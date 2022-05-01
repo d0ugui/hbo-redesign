@@ -1,0 +1,15 @@
+{
+  "name": "hbo-redesign",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sync": "browser-sync start --server --files \"**/*\"",
+    "dev": "postcss tailwind.css --output output.css",
+    "watch:dev": "nodemon -x npm run dev -w tailwind.config.js -w tailwind.css",
+    "watch": "run-p watch:dev sync"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
