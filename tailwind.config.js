@@ -1,7 +1,14 @@
 module.exports = {
-  content: ["./src/**/*.{html}"],
+  content: ["./**/*.html"],
   theme: {
-    extend: {},
+    fontFamily: {
+      'gilroy': ['Gilroy-Medium', 'sans-serif']
+    },
+    extend: {
+      backgroundImage: {
+        'spider-man': 'url(/img/background.jpg)'
+      },
+    },
   },
   plugins: [],
 }
