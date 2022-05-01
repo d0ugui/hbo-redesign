@@ -2,7 +2,8 @@ module.exports = {
   content: ["./**/*.html"],
   theme: {
     fontFamily: {
-      'gilroy': ['Gilroy-Medium', 'sans-serif']
+      'gilroy-medium': ['Gilroy-Medium', 'sans-serif'],
+      'gilroy-bold': ['Gilroy-Bold', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
