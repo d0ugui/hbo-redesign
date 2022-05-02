@@ -1,4 +1,4 @@
-<img align="center" src="img/tela.png" alt="HBO Max">
+<img align="center" src="img/tela.jpg" alt="HBO Max">
 
 # 📖 Projeto
 
